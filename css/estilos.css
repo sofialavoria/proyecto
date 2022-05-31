@@ -35,3 +35,10 @@ p{
     padding: 20px;
     justify-content: space-evenly;
 }
+.row :hover{
+    background-color: rgb(105, 201, 105);
+}
+.navbar-brand :hover{
+    width: 450px;
+    transition: all 2s;
+}
