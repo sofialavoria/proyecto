@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    margin: 20px auto;
+    width: 90%;
+    font-family: 'Gugi';
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: center;
+}
+.header{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gugi';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.row :hover{
+    background-color: rgb(64, 114, 64);
+}
+.navbar-brand :hover{
+    width: 450px;
+    transition: all 2s;
+}
