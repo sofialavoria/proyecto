@@ -1,0 +1,20 @@
+main{
+    .h1, h5 {
+        color: rgba(207, 179, 18, 0.74);
+        font-weight: bold;
+      }
+      .h2, h3{
+        color:$colorLetra ;
+        font-weight: bold;
+      }
+      .h4{
+        width: 60%;
+        padding: 15px;
+        font-weight: bold;
+        background-color: $colorLetra;
+        color: rgba(207, 179, 18, 0.74);
+      }
+      .p {
+        color: $colorLetra; 
+      }
+}

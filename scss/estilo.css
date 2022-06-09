@@ -1,0 +1,94 @@
+header .container {
+  font-size: 25px;
+  font-family: 'Changa', sans-serif;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+header .container .nav-link {
+  color: #cfb312;
+}
+
+header .container .nav-item :hover {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  color: rgba(59, 58, 47, 0.74);
+}
+
+header .container .navbar-brand :hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+  width: 500px;
+}
+
+main .h1, main h5 {
+  color: rgba(207, 179, 18, 0.74);
+  font-weight: bold;
+}
+
+main .h2, main h3 {
+  color: rgba(59, 58, 47, 0.74);
+  font-weight: bold;
+}
+
+main .h4 {
+  width: 60%;
+  padding: 15px;
+  font-weight: bold;
+  background-color: rgba(59, 58, 47, 0.74);
+  color: rgba(207, 179, 18, 0.74);
+}
+
+main .p {
+  color: rgba(59, 58, 47, 0.74);
+}
+
+main {
+  margin: auto;
+  font-family: 'Changa', sans-serif;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: rgba(59, 58, 47, 0.74);
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+}
+
+main .carousel-inner {
+  padding: 3%;
+  width: 90%;
+}
+
+main .row {
+  width: 85%;
+}
+
+main .row .card :hover {
+  background-color: rgba(223, 215, 171, 0.74);
+}
+
+main .accordion {
+  width: 80%;
+}
+
+main .accordion ul {
+  list-style: none;
+}
+
+main .accordion button {
+  color: #cfb312;
+}
+
+main .form {
+  color: rgba(207, 18, 18, 0.74);
+  background-color: rgba(59, 8, 8, 0.993);
+  padding: 15px;
+}
+
+footer {
+  margin: auto;
+  background-color: rgba(59, 8, 8, 0.993);
+  text-align: center;
+  color: white;
+  padding: 10px;
+  width: 90%;
+}
+/*# sourceMappingURL=estilo.css.map */

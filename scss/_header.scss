@@ -1,0 +1,19 @@
+header{
+  .container{
+    font-size: 25px;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+    .nav-link{
+    color: rgb(207, 179, 18);
+    }
+    .nav-item :hover{
+    transform: rotate(20deg);
+    color: $colorLetra;
+    }
+    .navbar-brand :hover{
+    transition: 2s;
+    width: 500px;
+   }  
+  }
+}
