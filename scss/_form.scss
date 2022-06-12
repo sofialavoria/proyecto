@@ -1,0 +1,11 @@
+main{
+    form{
+        @include borde ($colorLetra2, 5px); 
+        color: $colorLetra1;
+        padding: 10px;
+        font-size: 25px;
+        .boton {
+            @extend .boton ;
+        }
+    }
+}

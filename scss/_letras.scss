@@ -1,20 +1,17 @@
 main{
+  font-weight: bold;
     .h1, h5 {
-        color: rgba(207, 179, 18, 0.74);
-        font-weight: bold;
+        color: $colorLetra2;
       }
       .h2, h3{
-        color:$colorLetra ;
-        font-weight: bold;
+        color:$colorLetra1;
       }
       .h4{
         width: 60%;
         padding: 15px;
-        font-weight: bold;
-        background-color: $colorLetra;
-        color: rgba(207, 179, 18, 0.74);
+        color: $colorLetra2;
       }
       .p {
-        color: $colorLetra; 
+        color: $colorLetra1; 
       }
 }

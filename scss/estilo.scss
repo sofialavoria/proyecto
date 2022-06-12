@@ -1,46 +1,56 @@
-$colorLetra:rgba(59, 58, 47, 0.74);
+$colorLetra1:rgba(59, 58, 47, 0.74);
+$colorLetra2: rgba(207, 179, 18, 0.74); 
 $colorFondo: rgba(59, 8, 8, 0.993);
 @import "header";
 @import "letras";
+@import "./mixins";
+@import "form";
+@import "extends";
+
   main {
     margin: auto;
     font-family: 'Changa', sans-serif;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    color: $colorLetra;
     font-size: 20px;
     text-align: center;
     width: 90%;
 
     .carousel-inner{
       padding: 3%;
-      width: 90%;
     }
     .row{
-      width: 85%;
+      display: flex;
+      justify-content: space-evenly;
+      
+      .card{
+        @include borde ($colorFondo, 5px);
+      }
       .card :hover{
         background-color:rgba(223, 215, 171, 0.74) ;
       }
+      .btn {
+        @extend .boton ;
+        font-size: 20px;
+      }
     }
     .accordion {
-      width: 80%;
       ul{
         list-style: none;
       }
       button{
-        color: rgb(207, 179, 18);
+        color: $colorLetra2;
+        font-size: 27px;
       }
-    }
-    .form{
-      color: rgba(207, 18, 18, 0.74);
-      background-color: $colorFondo;
-      padding: 15px;
     }
   }
   footer {
     margin: auto;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
     background-color: $colorFondo;
     text-align: center;
     color: white;
     padding: 10px;
+    font-size: 10px;
     width: 90%;
   }
