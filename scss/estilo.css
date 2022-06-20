@@ -19,6 +19,16 @@ header .container .navbar-brand :hover {
   width: 500px;
 }
 
+header .container .sociales li {
+  list-style: none;
+  display: inline-block;
+}
+
+header .container .sociales li :hover {
+  width: 45px;
+  height: 45px;
+}
+
 main {
   font-weight: bold;
 }
@@ -102,11 +112,21 @@ footer {
   margin: auto;
   font-family: 'Changa', sans-serif;
   font-family: 'Kdam Thmor Pro', sans-serif;
-  background-color: rgba(59, 8, 8, 0.993);
+  background-color: white;
   text-align: center;
-  color: white;
+  color: rgba(59, 8, 8, 0.993);
   padding: 10px;
   font-size: 10px;
   width: 90%;
+}
+
+footer .sociales li {
+  list-style: none;
+  display: inline-block;
+}
+
+footer .sociales li :hover {
+  width: 45px;
+  height: 45px;
 }
 /*# sourceMappingURL=estilo.css.map */

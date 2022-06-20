@@ -15,5 +15,15 @@ header{
     transition: 2s;
     width: 500px;
    }  
+    .sociales {
+      li{
+      list-style: none;
+      display: inline-block;  
+      :hover{
+        width: 45px;
+        height: 45px;
+      }
+      }  
+    }
   }
 }

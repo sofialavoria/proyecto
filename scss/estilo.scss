@@ -47,10 +47,21 @@ $colorFondo: rgba(59, 8, 8, 0.993);
     margin: auto;
     font-family: 'Changa', sans-serif;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    background-color: $colorFondo;
+    background-color: white;
     text-align: center;
-    color: white;
+    color: $colorFondo;
     padding: 10px;
     font-size: 10px;
     width: 90%;
+
+    .sociales {
+      li{
+        list-style: none;
+        display: inline-block;  
+        :hover{
+          width: 45px;
+          height: 45px;
+        }
+      }  
+    }
   }
