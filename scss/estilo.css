@@ -1,6 +1,6 @@
 header .container {
   width: 90%;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Changa', sans-serif;
   font-family: 'Kdam Thmor Pro', sans-serif;
 }
@@ -25,8 +25,7 @@ header .container .sociales li {
 }
 
 header .container .sociales li :hover {
-  width: 45px;
-  height: 45px;
+  fill: rgba(59, 8, 8, 0.993);
 }
 
 main {
@@ -38,17 +37,13 @@ main .h1, main h5 {
 }
 
 main .h2, main h3 {
-  color: rgba(59, 58, 47, 0.74);
+  color: rgba(59, 8, 8, 0.993);
 }
 
 main .h4 {
   width: 60%;
   padding: 15px;
-  color: rgba(207, 179, 18, 0.74);
-}
-
-main .p {
-  color: rgba(59, 58, 47, 0.74);
+  color: rgba(59, 8, 8, 0.993);
 }
 
 main form {
@@ -125,8 +120,7 @@ footer .sociales li {
   display: inline-block;
 }
 
-footer .sociales li :hover {
-  width: 45px;
-  height: 45px;
+footer .sociales :hover {
+  fill: rgba(59, 8, 8, 0.993);
 }
 /*# sourceMappingURL=estilo.css.map */

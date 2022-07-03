@@ -4,14 +4,11 @@ main{
         color: $colorLetra2;
       }
       .h2, h3{
-        color:$colorLetra1;
+        color:$colorFondo;
       }
       .h4{
         width: 60%;
         padding: 15px;
-        color: $colorLetra2;
-      }
-      .p {
-        color: $colorLetra1; 
+        color: $colorFondo;
       }
 }

@@ -58,10 +58,9 @@ $colorFondo: rgba(59, 8, 8, 0.993);
       li{
         list-style: none;
         display: inline-block;  
-        :hover{
-          width: 45px;
-          height: 45px;
-        }
+      }
+      :hover{
+        fill: $colorFondo;
       }  
     }
   }
